@@ -1,0 +1,150 @@
+body {
+    background-color: deepskyblue;
+}
+.color {
+    color: white;
+}
+.color2 {
+    color: red;
+}
+.image1 {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    border-radius: 100px;
+}
+.image2 {
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    border-radius: 100px;
+}
+.image3 {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    border-radius: 28px;
+}
+.image4 {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    border-radius: 300px;
+}
+.image5 {
+    position: absolute;
+    top: 560px;
+    left: 50px;
+    border-radius: 30px;
+}
+.image6 {
+    position: absolute;
+    top: 560px;
+    left: 500px;
+    border-radius: 888px;
+}
+.image7 {
+    position: absolute;
+    top: 825px;
+    left: 50px;
+    border-radius: 888px;
+}
+.image8 {
+    position: absolute;
+    top: 825px;
+    left: 500px;
+    border-radius: 1000px;
+}
+.list {
+    position: absolute;
+    top: 1025px;
+    left: 50px;
+}
+.china {
+    position: absolute;
+    top: 1080px;
+    left: 80px;
+    color: red;
+}
+.hongkong {
+    position: absolute;
+    top: 1100px;
+    left: 100px;
+    color: red;
+}
+.disney {
+    position: absolute;
+    top: 1120px;
+    left: 120px;
+    color: white;
+}
+.ocean {
+    position: absolute;
+    top: 1140px;
+    left: 120px;
+    color: white;
+}
+.shanghai {
+    position: absolute;
+    top: 1160px;
+    left: 100px;
+    color: red;
+}
+.resort {
+    position: absolute;
+    top: 1180px;
+    left: 120px;
+    color: white;
+}
+.pearl {
+    position: absolute;
+    top: 1200px;
+    left: 120px;
+    color: white;
+}
+.beijing {
+    position: absolute;
+    top: 1220px;
+    left: 100px;
+    color: red;
+}
+.wall {
+    position: absolute;
+    top: 1240px;
+    left: 120px;
+    color: yellow;
+}
+.square {
+    position: absolute;
+    top: 1260px;
+    left: 120px;
+    color: yellow;
+}
+.guangzhou {
+    position: absolute;
+    top: 1280px;
+    left: 100px;
+    color: red;
+}
+.paradise {
+    position: absolute;
+    top: 1300px;
+    left: 120px;
+    color: white;
+}
+.tower {
+    position: absolute;
+    top: 1320px;
+    left: 120px;
+    color: white;
+}
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table {
+    position: absolute;
+    top: 1360px;
+    left: 50px;
+}
