@@ -44,4 +44,13 @@ a:hover, a:active {
     left: 575px;
     border: 4px solid white;
 }
-
+.me {
+    text-align: center;
+    border: 2px solid steelblue; 
+    border-radius: 30px;
+    padding: 25px;
+    color: orchid;
+    text-decoration: underline;
+    font-family: 'Dekko';
+    top: 500px;
+}
