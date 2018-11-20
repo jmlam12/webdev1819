@@ -1,0 +1,12 @@
+.jumbotron {
+    text-align: center;
+    background-color: #4DD1FF;
+    font-family: helvetica;
+}
+body {
+    background-color: #FF6C6C;
+}
+.card {
+    margin-left: 80px;
+    
+}
