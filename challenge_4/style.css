@@ -8,5 +8,10 @@ body {
 }
 .card {
     margin-left: 80px;
-    
+    background-color: #DCDDDE;
+}
+.card {
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px; 
 }
