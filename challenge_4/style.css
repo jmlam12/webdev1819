@@ -1,7 +1,7 @@
 .jumbotron {
     text-align: center;
     background-color: #4DD1FF;
-    font-family: helvetica;
+    font-family: Capriola;
 }
 .city {
     margin-left: 0px;
@@ -12,12 +12,12 @@ body {
 .card {
     margin-left: 80px;
     background-color: #DCDDDE;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+    font-family: Capriola;
 }
-.card {
-        margin: 0 auto; 
-        float: none; 
-        margin-bottom: 10px; 
-}
+
 .right {
     position:absolute;
     right:20px;
