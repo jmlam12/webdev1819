@@ -12,9 +12,11 @@
   <div class="jumbotron">
     <h1>Soccer</h1>      
     <p><i>The sport that makes me happy.</i></p>
+    <img class="city" src="https://cdn4.sportngin.com/attachments/photo/6292/4735/Chicago-City-Soccer-Club_small.png" alt="CCSC">
+    <img class="city" src="https://cdn1.sportngin.com/attachments/news_article/a2fe-106751515/empire_logo_main_large.png" alt="Empire" width=223.1 height=230>
   </div>
+  
   <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
- 
   <a class="navbar-brand" href="#">
   <img src="https://vignette.wikia.nocookie.net/object-overload/images/c/cc/Soccerball_Body_Updated.png/revision/latest?cb=20131231013931" alt="logo" style="width:40px;">
   </a>
@@ -26,10 +28,12 @@
       <a class="nav-link" href="https://www.chicagoempirefc.com/">Chicago Empire FC</a>
     </li>
   </ul>
+  <div class="right">
   <form class="form-inline" action="/action_page.php">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
     <button class="btn btn-success" type="submit">Search</button>
   </form>
+  </div>
 </nav>
 <br>
   <div class="row">
@@ -53,9 +57,30 @@
       <img class="card-img-top" src="https://drive.google.com/uc?id=0B_XmBKoojbUTbnlSNHVfS1p4bmc5d09vOGs5akF5Vm9CUm84" alt="Card image" style="width:100%">
         <div class="card-body">
           <h4 class="card-title">Matt Tunis</h4>
-          <p class="card-text">Matt Tunis is a high school girls coach as well as the Director of Operations & Assistant Technical Director at Chicago Empire FC. He is also an assistant coach for the Elmhurst College men's soccer team.</p>
+          <p class="card-text">Matt Tunis is a high school girls coach (my former coach) as well as the Director of Operations & Assistant Technical Director at Chicago Empire FC. He is also an assistant coach for the Elmhurst College men's soccer team.</p>
           <a href="https://elmhurstbluejays.com/coaches.aspx?rc=620" class="btn btn-primary">See Profile</a>
         </div>
     </div>
+
+    <div class="container">
+  <h6>For more information on these soccer clubs, you can click on the links above or enter your name, email address, and any questions you may have.</h6>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="questions">Questions:</label>
+      <input type="questions" class="form-control" id="questions" placeholder="Enter questions" name="questions">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+</body>
+</html>
   
              
