@@ -1,0 +1,49 @@
+#border {
+    border: solid black 10px;
+}
+#toprow {
+    height: 400px;
+}
+#bigbox {
+    width: 400px;
+    height: 400px;
+}
+.deepskyblue {
+    background-color: deepskyblue;
+}
+#divider1 {
+    height: 440px;
+    width: 10px;
+}
+.black {
+    background-color: black;
+}
+.right {
+    float: right;
+}
+.mediumbox {
+    width: 300px;
+    height: 100px;
+    background-color: skyblue;
+}
+#divider2 {
+    height: 10px;
+    width: 300px;
+}
+.mediumbox2 {
+    width: 150px;
+    height: 220px;
+    border-bottom: solid black 10px;
+    background-color: paleturquoise;
+}
+.mediumbox3 {
+    margin-left: 150px;
+    width: 150px;
+    height: 100px;
+    border-top: solid black 10px;
+    background-color: powderblue;
+}
+#divider3 {
+    height: 10px;
+    width: 300px;
+}
