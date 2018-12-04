@@ -1,49 +1,117 @@
-#border {
-    border: solid black 10px;
+body, html {
+    background-color: gainsboro;
 }
-#toprow {
-    height: 400px;
+
+#painting {
+  width: 400px;
+  height: 400px;
+  background: darkturquoise;    
+  margin-top: 30px;
+  margin: auto;
+  box-shadow: 10px 10px 0px #8d8d8d;
 }
-#bigbox {
-    width: 400px;
-    height: 400px;
+
+/* Box IDs */
+
+#top-row {
+  height: 290px;
 }
-.deepskyblue {
-    background-color: deepskyblue;
+
+#big-box {
+  width: 290px;
+  height: 290px;
 }
-#divider1 {
-    height: 440px;
-    width: 10px;
+
+#bottom-left-box {
+  width: 100px;
+  height: 100px;
 }
-.black {
-    background-color: black;
+
+#bottom-right-column {
+  height: 100px;
+  width: 40px;
 }
+
+#bottom-middle-box {
+  height: 100px;
+  width: 240px;
+}
+
+/* Divider IDs */
+
+#divider-1 {
+  height: 290px;
+  width: 10px;
+}
+
+#divider-2 {
+  height: 10px;
+  width: 100px;
+}
+
+#divider-3 {
+  height: 10px;
+  width: 400px;
+}
+
+#divider-4 {
+  height: 100px;
+  width: 10px;
+}
+
+#divider-5 {
+  height: 10px;
+  width: 50px;
+}
+
+#divider-6 {
+  height: 100px;
+  width: 10px;
+}
+
+/* Box Classes */
+
 .right {
-    float: right;
+  float: right;
 }
-.mediumbox {
-    width: 300px;
-    height: 100px;
-    background-color: skyblue;
+
+.medium-box {
+  width: 100px;
+  height: 140px;
 }
-#divider2 {
-    height: 10px;
-    width: 300px;
+
+.small-box {
+  width: 50px;
+  height: 45px;
 }
-.mediumbox2 {
-    width: 150px;
-    height: 220px;
-    border-bottom: solid black 10px;
-    background-color: paleturquoise;
+
+
+/* Color Classes */
+
+.deepskyblue {
+  background-color: deepskyblue;
 }
-.mediumbox3 {
-    margin-left: 150px;
-    width: 150px;
-    height: 100px;
-    border-top: solid black 10px;
-    background-color: powderblue;
+
+.powderblue {
+  background-color: powderblue;
 }
-#divider3 {
-    height: 10px;
-    width: 300px;
+.paleturquoise {
+  background-color: paleturquoise;
 }
+.darkturquoise {
+  background-color: darkturquoise;
+}
+.lightskyblue {
+  background-color: lightskyblue;
+}
+.royalblue {
+  background-color: royalblue;
+}
+.darkblue {
+  background-color: darkblue;
+}
+
+.black {
+  background-color: black;
+}
+    
