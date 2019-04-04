@@ -1,0 +1,36 @@
+.right {
+    position:absolute;
+    right:20px;
+}
+body {
+    font-family: Nunito;
+}
+.btn-success {
+    background-color: #e7e7e7; 
+    border-color: gainsboro;
+    color: black;
+}
+.jess {
+    font-family: Pacifico;
+    color: #00C2E5;
+    font-size: 150%;
+}
+.carousel-caption {
+	color: midnightblue;
+} 
+.card {
+    margin-left: 80px;
+    background-color: #E7EDEF;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+}
+.right {
+    position:absolute;
+    right:20px;
+}
+.active {
+    background-image: url("https://hellogrove.com/dist/img/marketing/assessment--hero.png");
+    background-repeat: repeat;
+}
+http://www.butterfingers-bakery.co.uk/img/logo/blue-logo.png
