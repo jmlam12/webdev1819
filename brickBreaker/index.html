@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brick Breaker</title>
+  <style>
+    canvas {
+        background-color: #eee;
+        padding: 0px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <canvas id="myCanvas" width="480px" height="320px"></canvas>
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      function draw(){
+        ctx.beginPath();
+        ctx.arc(50, 50, 10, 0, Math.PI*2);
+        ctx.fillStyle = "crimson";
+        ctx.fill();
+        ctx.closePath();
+        var x = canvas.width/2;
+        var y = canvas.height - 30;
+
+      }
+      setInterval(draw, 10);
+
+
+    </script>
+</body>
