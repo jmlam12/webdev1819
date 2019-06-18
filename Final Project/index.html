@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="header">
+    <img id="logo-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARYAAABYCAYAAAAwaNjnAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MEUyMzA2QzVEQUUyMTFFMjhENTFBN0Y1M0VDM0MzRTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEUyMzA2QzZEQUUyMTFFMjhENTFBN0Y1M0VDM0MzRTIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowRTIzMDZDM0RBRTIxMUUyOEQ1MUE3RjUzRUMzQzNFMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowRTIzMDZDNERBRTIxMUUyOEQ1MUE3RjUzRUMzQzNFMiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PhEs2fQAAAZJSURBVHja7JyNkao6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" alt="Always Learning" width="139" height="44">
+      <a href="http://www.pearsonhighered.com" rel="ext" title="pearsonhighered.com" class="logo">
+        <img id="logo-left" src="data:image/png;base64,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" alt="PEARSON" width="114" height="44">
+      </a>
+  </div>
+  <div class="top" id="top">
+    <h1 class="color-marine-turquoise">
+	    MyProgrammingLab&trade;
+	    <img id="inline" src="https://lh3.google.com/u/0/d/1kalyhp6iWuO47th7edDuJbX8OIIRvatx=w1920-h957-iv1" alt="MyLab" style="display:inline-block; float:right;">
+    </h1>
+    <h6 id="align">MYLAB &amp; MASTERING HOME</h6>
+  </div>
+  <div class="jumbotron">
+  </div>
+    <img class="breakthrough" src="https://lh3.google.com/u/0/d/1urTkmqbbudJTjuQgowSO1mnZK0aSTCHv=w1918-h957-iv1">
+    <p class="results"> To improving results</p>
+    <img class="graph" src="https://lh3.google.com/u/0/d/1RTojRlU3xzNnv2N8D42d6t20u50WciFG=w1697-h957-iv1">
+    <span class="line firstOverlayLine"></span>
+    <p class="goal">Our goal is to help every student succeed. We're working with ed-</p>
+    <p class="institutions">ucators and institutions to improve results of students every-</p>
+    <p class="where">where.<span class="lightgreen"> Learn more  > </span></p>
+    <div class="forestgreen">
+    <div class="col col-11">
+      <dt>EDUCATORS &amp; ADMINISTRATORS ></dt>
+      <dd><a href="educators/results/results-library.php">Results </a></dd>
+      <dd><a href="educators/features/index.html">Features</a></dd>
+      <dd><a href="educators/support/index.html">Training &amp; Support</a></dd>
+    </div>
+    </div>
+    <div class="aquagreen">
+    <div class="col col-11">
+      <dt>STUDENTS > </dt>
+      <dd><a href="students/get-registered/index.html">Get Registered</a></dd>
+      <dd><a href="students/features/index.html">Features</a></dd>
+      <dd><a href="students/support/index.html">More...</a></dd>
+    </div>
+    </div>
+    <p class="col col-5 engage">Engage students with immersive content, tools, and experiences</p>
+    <p class="col col-5 collection">MyLab &amp; Mastering is the world's leading collection of online homework, tutorial, and assessment products designed with a single purpose in mind: to improve the results of all higher education students, one student at a time.</p>
+    <img class="see" src="https://lh3.google.com/u/0/d/1wtvnUXECylbDoLdGklYHcqhbIdkucZEl=w1366-h609-iv1">
+
+
+
